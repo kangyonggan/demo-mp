@@ -1,7 +1,7 @@
 package com.kangyonggan.mp.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.kangyonggan.mp.model.User;
+import com.kangyonggan.mp.entity.User;
 
 /**
  * @author kyg
