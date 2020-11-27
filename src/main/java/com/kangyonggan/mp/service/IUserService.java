@@ -1,6 +1,5 @@
 package com.kangyonggan.mp.service;
 
-import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.kangyonggan.mp.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -14,11 +13,4 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface IUserService extends IService<User> {
 
-    /**
-     * 分页查询
-     *
-     * @param page
-     * @return
-     */
-    IPage<User> selectPageVo(IPage<User> page);
 }
