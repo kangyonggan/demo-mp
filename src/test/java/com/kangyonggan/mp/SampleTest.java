@@ -1,7 +1,7 @@
 package com.kangyonggan.mp;
 
 import com.kangyonggan.mp.mapper.UserMapper;
-import com.kangyonggan.mp.model.User;
+import com.kangyonggan.mp.entity.User;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.kangyonggan.mp.model;
+package com.kangyonggan.mp.entity;
 
 import lombok.Data;
 
