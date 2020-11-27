@@ -3,7 +3,8 @@ package com.kangyonggan.mp.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
+import com.kangyonggan.mp.controller.BaseController;
 
 /**
  * <p>
@@ -13,9 +14,9 @@ import org.springframework.stereotype.Controller;
  * @author kyg
  * @since 2020-11-27
  */
-@Controller
+@RestController
 @RequestMapping("/loginLog")
-public class LoginLogController {
+public class LoginLogController extends BaseController {
 
 }
 
