@@ -21,7 +21,7 @@ public class CodeGenerator extends AbstractTest {
     /**
      * 表名
      */
-    private static final String TABLE_NAME = "login_log";
+    private static final String TABLE_NAME = "user";
 
     /**
      * 作者
